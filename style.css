@@ -49,3 +49,25 @@ nav li:hover{
     width: 100px;
 }
 
+/* Projects */
+#Projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bike {
+    background-image: url(./ressources/FEND_Profil.jpeg);
+    background-repeat: no repeat;
+    width: 250px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bike h2{
+    color: white;
+    background-color: #fff 0.6;
+}
