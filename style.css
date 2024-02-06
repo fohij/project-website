@@ -51,12 +51,9 @@ nav li:hover{
 
 /* Projects */
 .Projects{
-    /* margin-top: 50px; */
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .project {
@@ -78,5 +75,39 @@ nav li:hover{
     cursor: pointer;
     color: rgba(255, 255, 255, 0.5); /* Halbtransparentes Weiß */
 }
+
+
+@media only screen and (max-width: 1250px){
+body {
+    margin: 0 10%;
+}
+}
+
+@media only screen and (max-width: 950px){
+    body {
+        margin: 0 5%;
+    }
+    .Projects{
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        flex-direction: column;
+        
+    }
+    .project {
+        background-image: url(./ressources/FEND_Profil.jpeg);
+        background-repeat: no repeat;
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease;
+        margin-top: 5%;
+    }
+
+    }
+    
 
 
