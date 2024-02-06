@@ -1,0 +1,51 @@
+body{
+    margin: 0 20%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+}
+nav li{
+    display: inline;
+}
+
+nav a {
+    display: inline;
+    text-decoration: none;
+    color: blue;
+    margin-left: 50px;
+}
+
+nav li:hover{
+    cursor: pointer;
+    color: aqua;
+    background-color: grey;
+}
+
+
+#about-me{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#about-me #text{
+    max-width: 45%;
+}
+#about-me img{
+    max-width: 45%;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.images img{
+    width: 100px;
+}
+
