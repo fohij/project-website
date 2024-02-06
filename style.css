@@ -50,12 +50,13 @@ nav li:hover{
 }
 
 /* Projects */
-#Projects{
+.Projects{
+    /* margin-top: 50px; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    
 }
 
 #bike {
@@ -68,6 +69,34 @@ nav li:hover{
     justify-content: center;
 }
 #bike h2{
+    color: white;
+    background-color: #fff 0.6;
+}
+
+#bla {
+    background-image: url(./ressources/FEND_Profil.jpeg);
+    background-repeat: no repeat;
+    width: 250px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bla h2{
+    color: white;
+    background-color: #fff 0.6;
+}
+
+#blabla {
+    background-image: url(./ressources/FEND_Profil.jpeg);
+    background-repeat: no repeat;
+    width: 250px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#blabla h2{
     color: white;
     background-color: #fff 0.6;
 }
